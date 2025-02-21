@@ -1,0 +1,36 @@
+CSC 317 Assignment 2 Submission
+Name: Matthew Tong
+Student ID: 923352258
+GitHub Username: MatthewT265
+Assignment Number: 3
+
+HTML Personal Portfolio Website Assignment
+Description:
+Provide a brief overview of the assignment. Explain the objective, key tasks, and any relevant background information.
+This assignment was to understand HTML5 and implement proper document structures. Also, it was to understand organizing and listing.
+
+Approach / What I Did:
+Describe your approach to building the HTML structure. Explain design choices, layout decisions, and how elements are structured.
+ First I needed to create a program that shows my profile picture. After this section, I needed to create the “Navigation Link” section. This is the section where it will take you to a specific section easily. After this section, I needed to create the “About Me” section. For this section, I introduced myself and wrote a little background about myself. After this section, I needed to create the “Experience” section. This section is where I needed to list my experiences of coding. After this section, I needed to create the “Education” section. This is the section where I must show what school I have attended.  After this section, I needed to create the “Skills” section. This is the section where I must show what languages I can code. After this section, I needed to add the “Project” section. This is the section where I needed to list my projects so far. After this section, I needed to create the “Audio” section. This was for practice and it is a section that will play the audio that I added.” After this section, I needed to create the “Contact” section. This is the section where I needed to add my GitHub link. After this section, I needed to create the “Footer” section. This is the section where I needed to put my name. Finally, I needed to create the “General Styles” section. This is the section where it will align everything perfectly. 
+
+
+Code Explanation:
+A key part of my project is this.
+<!-- Navigation Section -->
+<nav>
+    <ul class="nav-links">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+
+Here, I have created my navigation links. It will go to the specific section easily.
+
+Another key part of my project was this.
+<!-- Audio -->
+<audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+This was a practice to add an audio. By adding this code, it will play the audio that I have added.
+
