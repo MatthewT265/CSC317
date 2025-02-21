@@ -1,1 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Tong</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
+        header {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav .nav-links li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav .nav-links a {
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+
+        section h3 {
+        }
+
+        section p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+
+        article {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        article h4 {
+            margin-bottom: 10px;
+        }
+
+        /* Contact Form Styles */
+        form {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        form input, form textarea, form button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+
+        form button {
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+
+
+        nav .nav-links li {
+            display: block;
+            margin: 5px 0;
+        }
+
+        section {
+            padding: 15px;
+        }
+
+        form {
+            grid-template-columns: 1fr;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Matthew Tong</h1>
+    <h2>San Francisco State University</h2>
+</header>
+
+<!-- Images -->
+<img src="matthew.jpg" height="300" width="420" alt="profile picture">/>
+
+<!-- Navigation Section -->
+<nav>
+    <ul class="nav-links">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+</nav>
+
+<!-- Main Content -->
+<main>
+    <!-- About Me Section -->
+    <section id="about-me">
+        <h3>About Me</h3>
+        <p>
+            Hi, my name is Matthew Tong, and I am a sophomore at San Francisco State University majoring in
+            Computer Science. The reason why I chose this major was because I wanted to be like my friend, who is currently
+            in his junior year at UC Santa Cruz majoring in computer science. He enjoys coding and doing robotics.
+            I started to take computer science classes when I was in high school. Back then, I learned how to code basic
+            programs and the language that I used was Python. As a freshman, I also learned Java. After I graduate, I hope
+            I can get a job that relates to CyberSecurity. My hobbies are playing video games, watching baseball, and
+            going out with friends.
+        </p>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h3>Experience</h3>
+        <p>No experience yet</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h3>Education</h3>
+        <ul>
+            <li>El Cerrito High School - High School Diploma</li>
+            <li>San Francisco State University - Undergraduate bachelor of Science in Computer Science
+                (Currently in progress)</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h3>Skills</h3>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h3>Projects</h3>
+        <article>
+            <h4>Housing Selection</h4>
+            <p>Developed a program that lets users select houses at San Francisco State University.</p>
+        </article>
+        <article>
+            <h4>BMI Calculator</h4>
+            <p>Created a BMI calculator for the user to calculate their weight. </p>
+        </article>
+        <article>
+            <h4>Basic Tic Tak Toe</h4>
+            <p>Created a basic Tic Tak Toe game. This game is for two users. The game won't end until it determines
+                a winner.</p>
+        </article>
+    </section>
+</main>
+
+<!-- Audio -->
+<audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+
+<!-- Contacts -->
+<Contacts id="Contact">
+    <h3>Contacts</h3>
+    <a href="https://github.com/MatthewT265">GitHub link</a>
+</Contacts>
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Matthew Tong. All Rights Reserved.</p>
+    </footer>
