@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matthew Tong</title>
+  <style>
+    /* CSS Variables for Theming */
+    :root {
+      --primary-color: #000000; /* Black */
+      --secondary-color: #FFD700; /* Gold */
+      --text-color: #FFFFFF; /* White */
+      --hover-color: #FF4500; /* Orange Red */
+      --background-color: #F5F5F5; /* Light Gray */
+    }
+
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif; /* Simple and clean font */
+      margin: 0;
+      padding: 0;
+      color: var(--text-color);
+      background-color: var(--background-color);
+    }
+
+    header {
+      padding: 20px 0;
+      text-align: center;
+      background-color: var(--primary-color);
+      color: var(--secondary-color);
+    }
+
+    nav {
+      text-align: center;
+      padding: 10px;
+      background-color: var(--primary-color);
+    }
+
+    nav .nav-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav .nav-links li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    nav .nav-links a {
+      text-decoration: none;
+      font-size: 18px;
+      color: var(--secondary-color);
+    }
+
+    nav .nav-links a:hover {
+      color: var(--hover-color);
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      background-color: var(--primary-color);
+    }
+
+    section h3 {
+      margin-top: 0;
+      color: var(--secondary-color);
+    }
+
+    section p {
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    article {
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: var(--background-color);
+      color: var(--primary-color);
+    }
+
+    article h4 {
+      margin-bottom: 10px;
+    }
+
+    /* Contact Form Styles */
+    form {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    form input, form textarea, form button {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      border: none;
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: var(--hover-color);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: var(--primary-color);
+      color: var(--secondary-color);
+    }
+
+    /* Responsive Layout */
+    @media (max-width: 768px) {
+      nav .nav-links li {
+        display: block;
+        margin: 5px 0;
+      }
+
+      section {
+        padding: 15px;
+      }
+
+      form {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+  <h1>Matthew Tong</h1>
+  <h2>San Francisco State University</h2>
+</header>
+
+<!-- Images -->
+<img src="../SRC/images/matthew.jpg" height="200" width="250"/>
+
+<!-- Navigation Section -->
+<nav>
+  <ul class="nav-links">
+    <li><a href="#about-me">About Me</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+  </ul>
+</nav>
+
+<!-- Main Content -->
+<main>
+  <!-- About Me Section -->
+  <section id="about-me">
+    <h3>About Me</h3>
+    <p>
+      Hi, my name is Matthew Tong, and I am a sophomore at San Francisco State University majoring in
+      Computer Science. The reason why I chose this major was because I wanted to be like my friend, who is currently
+      in his junior year at UC Santa Cruz majoring in computer science. He enjoys coding and doing robotics.
+      I started to take computer science classes when I was in high school. Back then, I learned how to code basic
+      programs and the language that I used was Python. As a freshman, I also learned Java. After I graduate, I hope
+      I can get a job that relates to Cyber Security. My hobbies are playing video games, watching baseball, and
+      going out with friends.
+    </p>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h3>Experience</h3>
+    <p>No professional experience yet, but I am eager and excited to dive into the field!</p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h3>Education</h3>
+    <ul>
+      <li>El Cerrito High School - High School Diploma</li>
+      <li>San Francisco State University - Undergraduate bachelor of Science in Computer Science
+        (Currently in progress)</li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h3>Skills</h3>
+    <ul>
+      <li>Python</li>
+      <li>Java</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h3>Projects</h3>
+    <article>
+      <h4>Housing Selection</h4>
+      <p>Developed a program that lets users select houses at San Francisco State University.</p>
+    </article>
+    <article>
+      <h4>BMI Calculator</h4>
+      <p>Created a BMI calculator for the user to calculate their weight. </p>
+    </article>
+    <article>
+      <h4>Basic Tic Tak Toe</h4>
+      <p>Created a basic Tic Tak Toe game. This game is for two users. The game won't end until it determines
+        a winner.</p>
+    </article>
+    <h4>Calculator</h4>
+    <p>Created a basic calculator.</p>
+    <a href="http://localhost:63342/Assignment%204/Calculator.html?_ijt=7sqmqkdfqii2fbdjkl3veoda95"
+    >Calculator Project</a>
+    <img src="../SRC/images/Calculator.png" height="933" width="1897"/></article>
+  </section>
+</main>
+
+
+<!-- Audio -->
+<audio controls>
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<!-- Contacts -->
+<section id="contact">
+  <h3>Contacts</h3>
+  <a href="https://github.com/MatthewT265">GitHub link</a>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Matthew Tong. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
